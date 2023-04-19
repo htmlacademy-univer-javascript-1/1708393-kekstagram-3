@@ -1,6 +1,6 @@
-import { photo } from "./photoObject.js";
-import { getRandom } from "./getRandom.js";
-import { descriptions } from "./photoObject.js";
+import { photo } from './photoObject.js';
+import { getRandom } from './getRandom.js';
+import { descriptions } from './photoObject.js';
 
 export function generating(numbPhotos) {
   const photos = [];

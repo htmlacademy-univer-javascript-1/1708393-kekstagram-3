@@ -17,3 +17,4 @@ export function generateObjects(numbPhotos) {
   }
   return photos;
 }
+//Задание 7 часть 2

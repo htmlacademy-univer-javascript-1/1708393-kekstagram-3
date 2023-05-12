@@ -1,4 +1,4 @@
-import {getRandom, isCorrect} from './utils.js';
+import {getRandom} from './utils.js';
 function getDescription(id, description, likes, comments) {
   this.id = id;
   this.url = `photos/${id}.jpg`;
@@ -15,5 +15,5 @@ export function generateObjects(numbPhotos) {
   for (let i = 0; i < numbPhotos + 1; i++) {
     photos[i] = new getDescription(i, descriptions[getRandom(0, descriptions.length)], getRandom(15, 200), getRandom(0, 200));
   }
-    return photos;
+  return photos;
 }

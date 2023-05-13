@@ -1,4 +1,4 @@
-const pictureTemplate = document.querySelector('#picture').content;
+const pictureTemplate = document.querySelector('#picture').content.querySelector('.picture');
 const container = document.querySelector('.pictures');
 
 export function renderThumbnails(getObjects) {

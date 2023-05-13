@@ -6,12 +6,9 @@ function getDescription(id, description, likes, comments) {
   this.likes = likes;
   this.comments = comments;
 }
-const descriptions = ['aaaaaaaaaaaaaaaaaaaa1', 'aaaaaaaaaaaaaaaaaaaa2', 'aaaaaaaaaaaaaaaaaaaa3', 'aaaaaaaaaaaaaaaaaaaa4', 'aaaaaaaaaaaaaaaaaaaa5',
-'aaaaaaaaaaaaaaaaaaaa6', 'aaaaaaaaaaaaaaaaaaaa7', 'aaaaaaaaaaaaaaaaaaaa8', 'aaaaaaaaaaaaaaaaaaaa9',
-  'aaaaaaaaaaaaaaaaaaaa10','aaaaaaaaaaaaaaaaaaaa11', 'aaaaaaaaaaaaaaaaaaaa12', 'aaaaaaaaaaaaaaaaaaaa13', 'aaaaaaaaaaaaaaaaaaaa14',
-  'aaaaaaaaaaaaaaaaaaaa15','aaaaaaaaaaaaaaaaaaaa16', 'aaaaaaaaaaaaaaaaaaaa17', 'aaaaaaaaaaaaaaaaaaaa18',
-  'aaaaaaaaaaaaaaaaaaaa19', 'aaaaaaaaaaaaaaaaaaaa20', 'aaaaaaaaaaaaaaaaaaaa21', 'aaaaaaaaaaaaaaaaaaaa22',
-  'aaaaaaaaaaaaaaaaaaaa23', 'aaaaaaaaaaaaaaaaaaaa24', 'aaaaaaaaaaaaaaaaaaaa25',];
+const descriptions = ['1', '2', '3', '4', '5', '6', '7', '8', '9',
+  '10','11', '12', '13', '14', '15', '16', '17', '18',
+  '19', '20', '21', '22', '23', '24', '25',];
 
 export function generateObjects(numbPhotos) {
   const photos = [];

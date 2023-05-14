@@ -9,5 +9,5 @@ import { getDescription } from './data.js';
 import { renderThumbnails } from './render.js';
 import { showDownloadAlert } from './failForm.js';
 
-getDescription(renderThumbnails, showDownloadAlert)
+getDescription(renderThumbnails, showDownloadAlert);
 

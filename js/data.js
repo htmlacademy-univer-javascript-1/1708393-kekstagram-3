@@ -12,12 +12,12 @@ function getDescription(number) {
     likes: getRandom(15, 200),
     comments: getRandom(0, 200),
   };
-};
+}
 
 export function generateObjects(numbPhotos) {
   const photos = [];
   for (let i = 0; i < numbPhotos + 1; i++) {
     photos[i] = new getDescription(i);
-  };
+  }
   return photos;
-};
+}

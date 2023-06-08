@@ -1,13 +1,10 @@
 import './utils.js';
-import './data.js';
-import './render.js';
 import './form.js';
 import './formValidator.js';
-import './scaling.js';
 import './effect.js';
+import './scaling.js';
+import { getPhotos } from './data.js';
+import { renderThumbnails } from './render.js';
+import { showDownloadAlert } from './check.js';
 
-import {generateObjects} from './data.js';
-import {renderThumbnails} from './render.js';
-
-renderThumbnails(generateObjects(25));
-
+getPhotos(renderThumbnails, showDownloadAlert);
